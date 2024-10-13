@@ -5,6 +5,15 @@ format: html
 editor: visual
 ---
 
+```{r}
+
+#| echo: false
+#| message: false
+library(tidyverse)
+library(ellipse)
+
+```
+
 # Task 1: Conceptual Questions
 
 1.  What is the purpose of the lapply() function? What is the equivalent purrr function?
@@ -28,5 +37,7 @@ editor: visual
 > Fill in later
 
 # Task 2 - Writing R Functions
+
+
 
 # Task 3 - Querying an API and a Tidy-Style Function
